@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3410B3F01C8F39E10039688C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410B3EF1C8F39E10039688C /* AppDelegate.swift */; };
+		3410B3F21C8F39E10039688C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410B3F11C8F39E10039688C /* ViewController.swift */; };
+		3410B3F51C8F39E10039688C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3410B3F31C8F39E10039688C /* Main.storyboard */; };
+		3410B3F81C8F39E10039688C /* DepressionApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3410B3F61C8F39E10039688C /* DepressionApp.xcdatamodeld */; };
+		3410B3FA1C8F39E10039688C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3410B3F91C8F39E10039688C /* Assets.xcassets */; };
+		3410B3FD1C8F39E10039688C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3410B3FB1C8F39E10039688C /* LaunchScreen.storyboard */; };
+		3410B4081C8F39E10039688C /* DepressionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410B4071C8F39E10039688C /* DepressionAppTests.swift */; };
+		3410B4131C8F39E10039688C /* DepressionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410B4121C8F39E10039688C /* DepressionAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3410B4041C8F39E10039688C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3410B3E41C8F39E10039688C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3410B3EB1C8F39E10039688C;
+			remoteInfo = DepressionApp;
+		};
+		3410B40F1C8F39E10039688C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3410B3E41C8F39E10039688C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3410B3EB1C8F39E10039688C;
+			remoteInfo = DepressionApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3410B3EC1C8F39E10039688C /* DepressionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepressionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3410B3EF1C8F39E10039688C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3410B3F11C8F39E10039688C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3410B3F41C8F39E10039688C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3410B3F71C8F39E10039688C /* DepressionApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DepressionApp.xcdatamodel; sourceTree = "<group>"; };
+		3410B3F91C8F39E10039688C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3410B3FC1C8F39E10039688C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3410B3FE1C8F39E10039688C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3410B4031C8F39E10039688C /* DepressionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepressionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3410B4071C8F39E10039688C /* DepressionAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionAppTests.swift; sourceTree = "<group>"; };
+		3410B4091C8F39E10039688C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3410B40E1C8F39E10039688C /* DepressionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepressionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3410B4121C8F39E10039688C /* DepressionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionAppUITests.swift; sourceTree = "<group>"; };
+		3410B4141C8F39E10039688C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3410B3E91C8F39E10039688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3410B4001C8F39E10039688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3410B40B1C8F39E10039688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3410B3E31C8F39E10039688C = {
+			isa = PBXGroup;
+			children = (
+				3410B3EE1C8F39E10039688C /* DepressionApp */,
+				3410B4061C8F39E10039688C /* DepressionAppTests */,
+				3410B4111C8F39E10039688C /* DepressionAppUITests */,
+				3410B3ED1C8F39E10039688C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3410B3ED1C8F39E10039688C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3410B3EC1C8F39E10039688C /* DepressionApp.app */,
+				3410B4031C8F39E10039688C /* DepressionAppTests.xctest */,
+				3410B40E1C8F39E10039688C /* DepressionAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3410B3EE1C8F39E10039688C /* DepressionApp */ = {
+			isa = PBXGroup;
+			children = (
+				3410B3EF1C8F39E10039688C /* AppDelegate.swift */,
+				3410B3F11C8F39E10039688C /* ViewController.swift */,
+				3410B3F31C8F39E10039688C /* Main.storyboard */,
+				3410B3F91C8F39E10039688C /* Assets.xcassets */,
+				3410B3FB1C8F39E10039688C /* LaunchScreen.storyboard */,
+				3410B3FE1C8F39E10039688C /* Info.plist */,
+				3410B3F61C8F39E10039688C /* DepressionApp.xcdatamodeld */,
+			);
+			path = DepressionApp;
+			sourceTree = "<group>";
+		};
+		3410B4061C8F39E10039688C /* DepressionAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3410B4071C8F39E10039688C /* DepressionAppTests.swift */,
+				3410B4091C8F39E10039688C /* Info.plist */,
+			);
+			path = DepressionAppTests;
+			sourceTree = "<group>";
+		};
+		3410B4111C8F39E10039688C /* DepressionAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3410B4121C8F39E10039688C /* DepressionAppUITests.swift */,
+				3410B4141C8F39E10039688C /* Info.plist */,
+			);
+			path = DepressionAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3410B3EB1C8F39E10039688C /* DepressionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3410B4171C8F39E10039688C /* Build configuration list for PBXNativeTarget "DepressionApp" */;
+			buildPhases = (
+				3410B3E81C8F39E10039688C /* Sources */,
+				3410B3E91C8F39E10039688C /* Frameworks */,
+				3410B3EA1C8F39E10039688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepressionApp;
+			productName = DepressionApp;
+			productReference = 3410B3EC1C8F39E10039688C /* DepressionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3410B4021C8F39E10039688C /* DepressionAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3410B41A1C8F39E10039688C /* Build configuration list for PBXNativeTarget "DepressionAppTests" */;
+			buildPhases = (
+				3410B3FF1C8F39E10039688C /* Sources */,
+				3410B4001C8F39E10039688C /* Frameworks */,
+				3410B4011C8F39E10039688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3410B4051C8F39E10039688C /* PBXTargetDependency */,
+			);
+			name = DepressionAppTests;
+			productName = DepressionAppTests;
+			productReference = 3410B4031C8F39E10039688C /* DepressionAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3410B40D1C8F39E10039688C /* DepressionAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3410B41D1C8F39E10039688C /* Build configuration list for PBXNativeTarget "DepressionAppUITests" */;
+			buildPhases = (
+				3410B40A1C8F39E10039688C /* Sources */,
+				3410B40B1C8F39E10039688C /* Frameworks */,
+				3410B40C1C8F39E10039688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3410B4101C8F39E10039688C /* PBXTargetDependency */,
+			);
+			name = DepressionAppUITests;
+			productName = DepressionAppUITests;
+			productReference = 3410B40E1C8F39E10039688C /* DepressionAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3410B3E41C8F39E10039688C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matthew Dee";
+				TargetAttributes = {
+					3410B3EB1C8F39E10039688C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = K88N7LBT5D;
+					};
+					3410B4021C8F39E10039688C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = K88N7LBT5D;
+						TestTargetID = 3410B3EB1C8F39E10039688C;
+					};
+					3410B40D1C8F39E10039688C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = K88N7LBT5D;
+						TestTargetID = 3410B3EB1C8F39E10039688C;
+					};
+				};
+			};
+			buildConfigurationList = 3410B3E71C8F39E10039688C /* Build configuration list for PBXProject "DepressionApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3410B3E31C8F39E10039688C;
+			productRefGroup = 3410B3ED1C8F39E10039688C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3410B3EB1C8F39E10039688C /* DepressionApp */,
+				3410B4021C8F39E10039688C /* DepressionAppTests */,
+				3410B40D1C8F39E10039688C /* DepressionAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3410B3EA1C8F39E10039688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3410B3FD1C8F39E10039688C /* LaunchScreen.storyboard in Resources */,
+				3410B3FA1C8F39E10039688C /* Assets.xcassets in Resources */,
+				3410B3F51C8F39E10039688C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3410B4011C8F39E10039688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3410B40C1C8F39E10039688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3410B3E81C8F39E10039688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3410B3F21C8F39E10039688C /* ViewController.swift in Sources */,
+				3410B3F81C8F39E10039688C /* DepressionApp.xcdatamodeld in Sources */,
+				3410B3F01C8F39E10039688C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3410B3FF1C8F39E10039688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3410B4081C8F39E10039688C /* DepressionAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3410B40A1C8F39E10039688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3410B4131C8F39E10039688C /* DepressionAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3410B4051C8F39E10039688C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3410B3EB1C8F39E10039688C /* DepressionApp */;
+			targetProxy = 3410B4041C8F39E10039688C /* PBXContainerItemProxy */;
+		};
+		3410B4101C8F39E10039688C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3410B3EB1C8F39E10039688C /* DepressionApp */;
+			targetProxy = 3410B40F1C8F39E10039688C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3410B3F31C8F39E10039688C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3410B3F41C8F39E10039688C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3410B3FB1C8F39E10039688C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3410B3FC1C8F39E10039688C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3410B4151C8F39E10039688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3410B4161C8F39E10039688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3410B4181C8F39E10039688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DepressionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DepressionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3410B4191C8F39E10039688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DepressionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DepressionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3410B41B1C8F39E10039688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DepressionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DepressionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepressionApp.app/DepressionApp";
+			};
+			name = Debug;
+		};
+		3410B41C1C8F39E10039688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DepressionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DepressionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepressionApp.app/DepressionApp";
+			};
+			name = Release;
+		};
+		3410B41E1C8F39E10039688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DepressionAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DepressionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DepressionApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3410B41F1C8F39E10039688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DepressionAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DepressionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DepressionApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3410B3E71C8F39E10039688C /* Build configuration list for PBXProject "DepressionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3410B4151C8F39E10039688C /* Debug */,
+				3410B4161C8F39E10039688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3410B4171C8F39E10039688C /* Build configuration list for PBXNativeTarget "DepressionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3410B4181C8F39E10039688C /* Debug */,
+				3410B4191C8F39E10039688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3410B41A1C8F39E10039688C /* Build configuration list for PBXNativeTarget "DepressionAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3410B41B1C8F39E10039688C /* Debug */,
+				3410B41C1C8F39E10039688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3410B41D1C8F39E10039688C /* Build configuration list for PBXNativeTarget "DepressionAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3410B41E1C8F39E10039688C /* Debug */,
+				3410B41F1C8F39E10039688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3410B3F61C8F39E10039688C /* DepressionApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3410B3F71C8F39E10039688C /* DepressionApp.xcdatamodel */,
+			);
+			currentVersion = 3410B3F71C8F39E10039688C /* DepressionApp.xcdatamodel */;
+			path = DepressionApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3410B3E41C8F39E10039688C /* Project object */;
+}
