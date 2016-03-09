@@ -31,7 +31,7 @@ class LoginViewController: UIViewController {
    
     func Login(){
         let ref = Firebase(url: "https://depression1.firebaseio.com")
-        ref.authUser(emailTextField.text! as String, password: passwordTextField.text! as String,
+        ref.authUser("copson@copson.com", password: "qwerty",
             withCompletionBlock: { error, authData in
                 if error != nil {
                     print("There was an error logging in to this account")
