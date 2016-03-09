@@ -15,6 +15,15 @@
 		3410B3FD1C8F39E10039688C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3410B3FB1C8F39E10039688C /* LaunchScreen.storyboard */; };
 		3410B4081C8F39E10039688C /* DepressionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410B4071C8F39E10039688C /* DepressionAppTests.swift */; };
 		3410B4131C8F39E10039688C /* DepressionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3410B4121C8F39E10039688C /* DepressionAppUITests.swift */; };
+		3410B4211C8F3CE30039688C /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3410B4201C8F3CE30039688C /* Firebase.framework */; };
+		3410B4231C8F3D100039688C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3410B4221C8F3D100039688C /* SystemConfiguration.framework */; };
+		3410B4251C8F3D1F0039688C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3410B4241C8F3D1F0039688C /* Security.framework */; };
+		3410B4271C8F3D380039688C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3410B4261C8F3D380039688C /* CFNetwork.framework */; };
+		3410B4291C8F3E0A0039688C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3410B4281C8F3E0A0039688C /* libz.tbd */; };
+		3410B42B1C8F3E440039688C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3410B42A1C8F3E440039688C /* libc++.tbd */; };
+		3410B42D1C8F44650039688C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3410B42C1C8F44650039688C /* libicucore.tbd */; };
+		34D194961C906E5F00C63123 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D194951C906E5F00C63123 /* LoginViewController.swift */; };
+		34D194981C90747500C63123 /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D194971C90747500C63123 /* questionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		3410B40E1C8F39E10039688C /* DepressionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepressionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3410B4121C8F39E10039688C /* DepressionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionAppUITests.swift; sourceTree = "<group>"; };
 		3410B4141C8F39E10039688C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3410B4201C8F3CE30039688C /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		3410B4221C8F3D100039688C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3410B4241C8F3D1F0039688C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3410B4261C8F3D380039688C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3410B4281C8F3E0A0039688C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3410B42A1C8F3E440039688C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		3410B42C1C8F44650039688C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		34D194951C906E5F00C63123 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		34D194971C90747500C63123 /* questionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3410B42D1C8F44650039688C /* libicucore.tbd in Frameworks */,
+				3410B42B1C8F3E440039688C /* libc++.tbd in Frameworks */,
+				3410B4291C8F3E0A0039688C /* libz.tbd in Frameworks */,
+				3410B4271C8F3D380039688C /* CFNetwork.framework in Frameworks */,
+				3410B4251C8F3D1F0039688C /* Security.framework in Frameworks */,
+				3410B4231C8F3D100039688C /* SystemConfiguration.framework in Frameworks */,
+				3410B4211C8F3CE30039688C /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +104,13 @@
 		3410B3E31C8F39E10039688C = {
 			isa = PBXGroup;
 			children = (
+				3410B42C1C8F44650039688C /* libicucore.tbd */,
+				3410B42A1C8F3E440039688C /* libc++.tbd */,
+				3410B4281C8F3E0A0039688C /* libz.tbd */,
+				3410B4261C8F3D380039688C /* CFNetwork.framework */,
+				3410B4241C8F3D1F0039688C /* Security.framework */,
+				3410B4221C8F3D100039688C /* SystemConfiguration.framework */,
+				3410B4201C8F3CE30039688C /* Firebase.framework */,
 				3410B3EE1C8F39E10039688C /* DepressionApp */,
 				3410B4061C8F39E10039688C /* DepressionAppTests */,
 				3410B4111C8F39E10039688C /* DepressionAppUITests */,
@@ -102,6 +134,8 @@
 				3410B3EF1C8F39E10039688C /* AppDelegate.swift */,
 				3410B3F11C8F39E10039688C /* ViewController.swift */,
 				3410B3F31C8F39E10039688C /* Main.storyboard */,
+				34D194971C90747500C63123 /* questionViewController.swift */,
+				34D194951C906E5F00C63123 /* LoginViewController.swift */,
 				3410B3F91C8F39E10039688C /* Assets.xcassets */,
 				3410B3FB1C8F39E10039688C /* LaunchScreen.storyboard */,
 				3410B3FE1C8F39E10039688C /* Info.plist */,
@@ -262,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D194961C906E5F00C63123 /* LoginViewController.swift in Sources */,
 				3410B3F21C8F39E10039688C /* ViewController.swift in Sources */,
 				3410B3F81C8F39E10039688C /* DepressionApp.xcdatamodeld in Sources */,
 				3410B3F01C8F39E10039688C /* AppDelegate.swift in Sources */,
+				34D194981C90747500C63123 /* questionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +440,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DepressionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.DepressionApp;
@@ -415,6 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DepressionApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.DepressionApp;
@@ -489,6 +533,7 @@
 				3410B4191C8F39E10039688C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3410B41A1C8F39E10039688C /* Build configuration list for PBXNativeTarget "DepressionAppTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +542,7 @@
 				3410B41C1C8F39E10039688C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3410B41D1C8F39E10039688C /* Build configuration list for PBXNativeTarget "DepressionAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +551,7 @@
 				3410B41F1C8F39E10039688C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
